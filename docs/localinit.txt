@@ -1,0 +1,42 @@
+    1  echo "# AmyT" >> README.md
+    2  ls
+    3  git init
+    4  git add README.md
+    5  ll
+    6  git commit -m "first commit"
+    7   git config --global user.email "evercristee@163.com"
+    8   git config --global user.name "popting"
+    9  git commit -m "first commit"
+   10  git remote add origin git@github.com:popting/AmyT.git
+   11  ll
+   12  git push -u origin master
+   13  git remote add amyt git@github.com:popting/AmyT.git
+   14  git remote add origin git@github.com:popting/AmyT.git
+   15  git clone git@github.com:popting/AmyT.git
+   16  cd ~/.ssh
+   17  pwd
+   18  ll
+   19  ssh-keygen
+   20  ssh -T -v git@github.com
+   21  ll
+   22  cat id_rsa.pub 
+   23  ssh-keygen -t rsa -C "evercristee@163.com"
+   24  ll
+   25  cat id_rsa.pub 
+   26  cat id_rsa
+   27  cat id_rsa.pub 
+   28  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDWbr0ATaUZTD7GGr4BHcZM5szYY8+D6QOthzEVSXdeDA7KpOGgcEmwgyaF9NIyChd1/oJ+Ah+H29W7we/P/pfyJsIxg2EHIy3ZijzWsN1ZZfJR9rJdqqiMhvEP7miQPtlKwUqdpyUjLW/Y3utCWlG1UDbnSfhdaCmTrYCqrwG21hqJ8Kymx/P1QyjVqTI0CqRG+yeKtiDkKdbSJtdRze54uVNqYyrm7A2i2Z+ERoAICterICFyCGz8rHhzgqlZ3BNPrxhZURC3cnHNDg0eXNvRuPmtib/RkMGv02okXxTnKDYosF8tlzj6y1fPg460vEr4Er+R+DKtKiLJGn0ITpt1 evercristee@163.com
+   29  git status
+   30  git help
+   31  git config --global user.email
+   32  pwd
+   33  git init
+   34  git clone git@github.com:popting/AmyT.git
+   35  dir
+   36  ls
+   37  ll
+   38  pwd
+   39  cd AmyT
+   40  ll
+   41  history
+   42  history > localinit.txt
